@@ -17,4 +17,10 @@
         android:id="@+id/favouriteFragment"
         android:name="com.example.newsapp.ui.favourite.FavouriteFragment"
         android:label="Favourite" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.newsapp.ui.fragment.AboutFragment"
+        android:label="About" />
+
 </navigation>

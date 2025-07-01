@@ -16,7 +16,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // Inisialisasi NavHostFragment dari layout
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+
+        // Setup Bottom Navigation dengan NavController
         binding.bottomNavigation.setupWithNavController(navHostFragment.navController)
     }
 }

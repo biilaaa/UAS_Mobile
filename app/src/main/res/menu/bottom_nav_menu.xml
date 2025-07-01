@@ -11,4 +11,10 @@
         android:id="@+id/favouriteFragment"
         android:icon="@drawable/favorite"
         android:title="Favourite" />
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/about"
+        android:title="About" />
+
 </menu>
