@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/newsFragment">
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.newsapp.ui.news.NewsFragment"
+        android:label="News" />
+
+    <fragment
+        android:id="@+id/bookmarksFragment"
+        android:name="com.example.newsapp.ui.bookmarks.BookmarksFragment"
+        android:label="Bookmarks" />
+
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.example.newsapp.ui.favourite.FavouriteFragment"
+        android:label="Favourite" />
+</navigation>
